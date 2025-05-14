@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT PDF Exporter (Print Mode)",
+  "name": "ChatGPT to PDF",
   "version": "0.7.17",
-  "description": "Uses Chrome's print functionality. User prompts have bubbles, assistant answers flow freely without avatar.",
-  "permissions": ["activeTab", "scripting"],
+  "description": "Easily convert your ChatGPT conversations into professional PDFs. Save, share, and organize your chats with just a few clicks",
+  "permissions": [], 
   "content_scripts": [
     {
       "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"],
